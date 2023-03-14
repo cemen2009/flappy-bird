@@ -40,7 +40,7 @@ public class Bird : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //if (Input.GetButtonDown("Jump"))
+        //if (Input.GetKey("space"))
         if (Input.GetMouseButtonDown(0))
         {
             ResetRotation();
